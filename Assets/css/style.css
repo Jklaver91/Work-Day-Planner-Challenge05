@@ -69,3 +69,25 @@ textarea{
   font-size: 20px;
   transition: all .3s ease-in-out;
 }
+
+.popBtn {
+  border-radius: 15px;
+  background-color: #77dd77;
+  color: white;
+}
+
+.popBtn i:hover {
+  font-size: 20px;
+  transition: all .3s ease-in-out;
+}
+
+.clearBtn {
+  border-radius: 15px;
+  background-color: #ff6961;
+  color: white;
+}
+
+.clearBtn i:hover {
+  font-size: 20px;
+  transition: all .3s ease-in-out;
+}
