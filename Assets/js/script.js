@@ -24,6 +24,7 @@ $(".clearBtn").click(function() {
     location.reload(true);
 });
 
+// Runs clock updating every second.
 window.setInterval(function () {
     $('#currentDay').html(moment().format('ddd MM/DD H:mm:ss'))
 }, 1000);
